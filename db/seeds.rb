@@ -19,3 +19,4 @@ require "faker"
     last_sign_in_ip: Faker::Internet.ip_v4_address,
   )
 end
+User.create!(first_name: "test", last_name: "test", email: "test@example.com", password: "hogefuga", last_sign_in_ip: "127.0.0.1")
